@@ -1,0 +1,20 @@
+* readAnyDatabase
+
+#+begin_example
+  hms-rs0:PRIMARY> db.createUser({user: "junior", pwd: "secret", roles: [{role: "readAnyDatabase", db: "admin"}]})
+  Successfully added user: {
+          "user" : "junior",
+          "roles" : [
+                  {
+                          "role" : "readAnyDatabase",
+                          "db" : "admin"
+                  }
+          ]
+  }
+#+end_example
+
+* robo3t
+
+[[file:WSzio3n.png]]
+
+[[file:kFXUdKb.png]]
