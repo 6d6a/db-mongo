@@ -13,7 +13,17 @@
   }
 #+end_example
 
-* robo3t
+* Clients
+
+** mongo
+
+With replaced secret:
+
+#+begin_src sh
+  mongo 'mongodb://junior:secret@hms01-mr.intr:27017,hms02-mr.intr:27017,hms03-mr.intr:27017/admin?replicaSet=hms-rs0'
+#+end_src
+
+** robo3t
 
 [[file:WSzio3n.png]]
 
